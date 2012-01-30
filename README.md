@@ -1,13 +1,5 @@
 # WordPress Migration Script
 
-#### Credits
-
-Created by Daelan Wood
-
-<http://daelan.com>
-
-<http://northrepublic.com>
-
 #### Overview
 
 This is a very simple script for streamlining the process of moving a WordPress site from one server to another.
@@ -24,7 +16,11 @@ All it really does is provide a simple means to update the domain specific entri
 
 ####Credits
 
-Copyright © 2012  Daelan Wood  <daelan@daelan.com)
+Copyright © 2012  Daelan Wood  <daelan@daelan.com>
+
+<http://daelan.com>
+
+<http://northrepublic.com>
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 
