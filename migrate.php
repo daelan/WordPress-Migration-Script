@@ -254,6 +254,32 @@
 	
 	$message .= "<p class='success'>URL in content Successfully Updated!</p>";
 	
+	
+	
+	}
+	
+	}
+	
+	
+		/* -- Update URL in Meta Values -- */
+	
+	
+	$query4 = "UPDATE ".$prefix."postmeta SET meta_value = REPLACE (meta_value, '".$oldUrl."', '".$newUrl."')";
+	
+
+	$result4 = mysql_query($query4);
+		
+	if (!$result4) {
+	    die('Invalid query: ' . mysql_error());
+	}else{
+	
+		$numResults4 = mysql_affected_rows();
+	
+	if ($numResults4 > 0) {
+
+	
+	$message .= "<p class='success'>URL in Post Meta Table Successfully Updated!</p>";
+	
 	$message .= "<p class='success'><strong>Your WordPress Migration is Complete!</strong></p><p class='error'>Be sure to <strong>Delete</strong> the migrate.php file from your web server.</p>";
 	
 	}
